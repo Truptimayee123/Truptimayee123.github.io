@@ -1,8 +1,37 @@
 body  {
     background:pink ;
+    padding: 0px;
+    margin: 0px;
 }
 #doll{
     width:300px;
     height:300px;
     border-radius:300px;
+}
+.nav_container{
+    width: 100%;
+    height: 48px;
+    background-color: #bdbdbd;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_link_container{
+    padding: 8px;
+    margin-right: 12px;
+}
+.nav_link{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:  none;
+    color: #ffffff;
+    background-color: #9e9e9e;
+    border-radius: 20px;
+}
+
+    border-bottom-width: 1px;
+    border-bottom-color: #379af2
 }
